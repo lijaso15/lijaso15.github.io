@@ -1,0 +1,13 @@
+{
+  "projects": [
+    {
+      "image": "vievacance_demo.png",
+      "title": "vieVacance fullstack webapp",
+      "subtitle": "trip planner whose main features are a 3d interactable globe and trip experience sharing",
+      "name": "vievacance",
+      "demo": " ",
+      "summary": ["adsf", "qwerty"],
+      "source": ["asdf", "qwerty"]
+    }
+  ]
+}
