@@ -18,7 +18,7 @@
           <div class="columns" >
             <div class="column" v-for="demo in demos" v-bind:key="demo"> 
               <embed v-if="demo.split('.')[1] === 'pdf'" :src="demo + '#view=FitH'" type="application/pdf">
-              <img v-if="demo.split('.')[1] === 'gif'" :src="demo" :title="demo" />
+              <img v-if="demo.split('.')[1] === 'gif' || demo.split('.')[1] === 'png'" :src="demo" :title="demo" />
             </div>
           </div>
           <p>{{ summary[1] }}</p>

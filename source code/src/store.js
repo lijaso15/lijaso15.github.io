@@ -7,6 +7,20 @@ export default new Vuex.Store({
   state: {
     projects: [
       {
+        image: "tsp.png",
+        title: "tsp/knapsack",
+        subtitle:
+          "Visualizing and comparing various combinations travelling salesman and knapsack problem solutions",
+        name: "tsp/knapsack",
+        demos: ["/tsp.png", "/tspdemo.png"],
+        summary: ["nothing here yet! please do checkout the link though!!"],
+        source: [
+          "https://lijaso15.github.io/trucks-and-parcels/",
+          "https://github.com/lijaso15/trucks-and-parcels"
+        ],
+        id: 0
+      },
+      {
         image: "spreeder.png",
         title: "spreeder",
         subtitle: "Interface to allow for extremely fast reading of text.",
@@ -35,7 +49,7 @@ export default new Vuex.Store({
           "https://lijaso15.github.io/spreeder/",
           "https://github.com/lijaso15/spreeder"
         ],
-        id: 0
+        id: 1
       },
       {
         image: "vievacance_demo.png",
@@ -52,7 +66,7 @@ export default new Vuex.Store({
           "https://vievacance.herokuapp.com/",
           "https://github.com/lijaso15/vievacance"
         ],
-        id: 1
+        id: 2
       },
       {
         image: "datafest2018.jpg",
@@ -68,7 +82,7 @@ export default new Vuex.Store({
         source: [
           "https://utorontodatafest.wordpress.com/2018-asa-datafest-uoft/"
         ],
-        id: 2
+        id: 3
       },
       {
         image: "treemap.png",
@@ -82,7 +96,7 @@ export default new Vuex.Store({
           "This program can visualize city populations and os file structures. You can interact with the screen by left clicking to display the size of the leaf node, right clicking to delete the pointed leaf node, pressing the uparrow key to increase the size of the selected leaf node or pressing the down arrow key to decrease it."
         ],
         source: ["https://github.com/lijaso15/treemap_visualizer"],
-        id: 3
+        id: 4
       },
       {
         image: "design.jpg",
@@ -106,7 +120,7 @@ export default new Vuex.Store({
           "This was a first time I worked on a large project with a group of people. We were responsible for:"
         ],
         source: [],
-        id: 4
+        id: 5
       }
     ]
   },
